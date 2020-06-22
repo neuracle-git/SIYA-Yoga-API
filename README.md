@@ -32,9 +32,10 @@ This api help us to auth all other api's.
 - Method
   POST
 - Data Params
+  ```
   key = email
-  value = "email id"
-  
+  value = "<Your email id>"
+  ```
 - Success Response
   - Code: 200
   ```
@@ -53,7 +54,6 @@ This api help us to auth all other api's.
   }
     }
   ```
-- Sample Call:
 
 ## 2. Detect Yoga
 This api detect yoga name form yoga posture image.
@@ -68,10 +68,10 @@ This api detect yoga name form yoga posture image.
   
  ```
   key = email
-  value = "email id"
+  value = "<Your email id>"
   
   key = "image"
-  value = multipart imaege body
+  value = multipart image body
  ```
  
 </p>
@@ -82,7 +82,7 @@ This api detect yoga name form yoga posture image.
   
  ```
  key = "Token"
- value = "token that genertae from genetare token api"
+ value = "token generated from generate token api"
  
  ```
  
@@ -134,10 +134,10 @@ This api detect yoga name form yoga posture image.
   
  ```
   key = email
-  value = "email id"
+  value = "<Your email id>"
   
   key = "image"
-  value = multipart imaege body
+  value = multipart image body
  ```
  
 </p>
@@ -148,7 +148,7 @@ This api detect yoga name form yoga posture image.
   
  ```
  key = "Token"
- value = "token that genertae from genetare token api"
+ value = "token generated from generate token api"
  
  ```
  
@@ -445,7 +445,7 @@ This api detect yoga name form yoga posture image.
 </details>
 
 # Contributing
-1. Send us some new yoga poses data on Contact@neuracle.in with your details.
+1. Send us some new yoga poses data on contact@neuracle.in with your details.
 2. suggest some best use cases for that api's and join our Team.
 
 # Our App Link:
